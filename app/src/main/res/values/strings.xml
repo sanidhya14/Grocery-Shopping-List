@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Shopping</string>
+    <string name="textview_1">TextView</string>
+    <string name="textview_2">TextView</string>
+    <string name="textview_3">TextView</string>
+    <string name="textview_4">TextView</string>
+    <string name="textview_5">TextView</string>
+    <string name="textview_6">TextView</string>
+    <string name="textview_7">TextView</string>
+    <string name="textview_8">TextView</string>
+    <string name="textview_9">TextView</string>
+    <string name="textview_10">TextView</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="add">Add Items</string>
+    <string name="select">Select Items</string>
+    <string name="apples">Apples</string>
+    <string name="banana">Banana</string>
+    <string name="mango">Mango</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="mulberry">mulberry</string>
+    <string name="guava">Guava</string>
+    <string name="watermelon">Watermelon</string>
+    <string name="grapes">Grapes</string>
+    <string name="orange">Orange</string>
+    <string name="litchi">Litchi</string>
+    <string name="search">Search</string>
+    <string name="search_store_editText"></string>
+
+</resources>
