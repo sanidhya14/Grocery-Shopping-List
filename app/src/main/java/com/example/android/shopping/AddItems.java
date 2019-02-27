@@ -21,10 +21,9 @@ public class AddItems extends AppCompatActivity {
 
 
     public void saveData(View view) {
+        Button selected=(Button)view;
+        String data=selected.getText().toString();
         Intent intent =new Intent();
-        String data;
-        TextView view2=(TextView) view;
-        data=view2.getText().toString();
         intent.putExtra(ITEMS,data);
         setResult(RESULT_OK,intent);
         finish();

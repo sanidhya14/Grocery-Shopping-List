@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/back"
+    android:background="@drawable/gradient_back"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -26,7 +26,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/shopping_list"
-                android:textColor="@color/head"
+                android:textColor="@color/back"
                 android:textSize="30sp" />
 
 
@@ -87,32 +87,26 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
-                android:background="@color/colorAccent"
+                android:background="@drawable/button_gradient"
                 android:onClick="launchAddItems"
                 android:text="@string/add"
-                android:textColor="@android:color/black" />
-
-            <EditText
-                android:id="@+id/editText_search"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:hint="Store Name"
-                android:text="@string/search_store_editText"
-                android:textColor="@color/head"
-                android:textColorHint="@color/head" />
+                android:textColor="@android:color/white"
+                style="@style/Base.Widget.AppCompat.Button.Colored"/>
 
             <Button
                 android:id="@+id/search_store"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
-                android:background="@color/colorAccent"
+                android:background="@drawable/button_gradient"
                 android:onClick="storeSearch"
                 android:text="@string/search"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/white"
+                style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
